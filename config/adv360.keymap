@@ -41,22 +41,22 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp EQUAL                &kp N1              &kp N2          &kp N3            &hm LS(LG(NUMBER_4)) N4  &kp N5              &none                                                                                &mo 3      &kp N6  &kp N7  &kp N8           &kp N9           &kp N0                       &kp MINUS
-&kp TAB                  &kp Q               &kp W           &kp E             &kp R                    &kp T               &kp LS(LA(SPACE))                                                                    &none      &kp Y   &kp U   &kp I            &kp O            &kp P                        &kp BSLH
-&mt LEFT_CONTROL ESCAPE  &hm LEFT_COMMAND A  &hm LEFT_ALT S  &hm LEFT_SHIFT D  &lt 1 F                  &hm LS(LEFT_ALT) G  &none              &lt 4 LEFT_CONTROL  &kp LALT      &kp LGUI   &lt 4 RIGHT_CONTROL  &none      &kp H   &kp J   &hm RIGHT_ALT K  &hm RIGHT_ALT L  &hm RIGHT_COMMAND SEMICOLON  &kp SQT
-&kp LSHFT                &kp Z               &kp X           &kp C             &kp V                    &kp B                                                      &kp HOME      &kp PG_UP                                  &kp N   &kp M   &kp COMMA        &kp DOT          &kp FSLH                     &kp RSHFT
-&none                    &kp GRAVE           &none           &kp LEFT          &kp RIGHT                                    &kp SPACE          &kp BACKSPACE       &kp END       &kp PG_DN  &kp TAB              &kp ENTER          &kp UP  &kp DOWN         &kp LBKT         &kp RBKT                     &none
+&kp EQUAL                &kp N1     &kp N2  &kp N3    &hm LS(LG(NUMBER_4)) NUMBER_4  &hm LS(LG(NUMBER_5)) NUMBER_5  &none                                                                                                 &mo 3          &kp N6  &kp N7  &kp N8     &kp N9    &kp N0         &kp MINUS
+&kp TAB                  &kp Q      &kp W   &kp E     &kp R                          &kp T                          &kp LS(LA(LEFT_CONTROL))                                                                              &none          &kp Y   &kp U   &kp I      &kp O     &kp P          &kp BSLH
+&mt LEFT_CONTROL ESCAPE  &kp A      &kp S   &kp D     &kp F                          &kp G                          &kp LS(LEFT_ALT)          &kp LEFT_ALT  &kp LEFT_COMMAND      &kp RIGHT_COMMAND  &lt 4 RIGHT_CONTROL  &none          &kp H   &kp J   &kp K      &kp L     &kp SEMICOLON  &kp SQT
+&kp LSHFT                &kp Z      &kp X   &kp C     &kp V                          &kp B                                                                  &kp HOME              &kp PG_UP                                              &kp N   &kp M   &kp COMMA  &kp DOT   &kp FSLH       &kp RSHFT
+&none                    &kp GRAVE  &none   &kp LEFT  &mo 1                                                         &kp SPACE                 &kp ENTER     &kp END               &kp PAGE_DOWN      &kp DELETE           &kp BACKSPACE          &kp UP  &kp DOWN   &kp LBKT  &kp RBKT       &none
             >;
         };
 
         keypad {
             display-name = "Kp";
             bindings = <
-&kp EQUAL  &kp N1     &kp N2  &kp N3    &kp N4     &kp N5  &trans                                                        &trans     &kp N6  &kp KP_NUM       &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
-&kp TAB    &kp Q      &kp W   &kp E     &kp R      &kp T   &trans                                                        &trans     &kp Y   &kp KP_N7        &kp KP_N8     &kp KP_N9      &kp KP_MINUS     &kp BSLH
-&kp ESC    &kp A      &kp S   &kp D     &kp F      &kp G   &trans     &kp LCTRL      &kp LALT      &kp LGUI   &kp RCTRL  &trans     &kp H   &kp KP_N4        &kp KP_N5     &kp KP_N6      &kp KP_PLUS      &kp SQT
-&kp LSHFT  &kp Z      &kp X   &kp C     &kp V      &kp B                             &kp HOME      &kp PG_UP                        &kp N   &kp KP_N1        &kp KP_N2     &kp KP_N3      &kp KP_ENTER     &kp RSHFT
-&trans     &kp GRAVE  &none   &kp LEFT  &kp RIGHT          &kp SPACE  &kp BACKSPACE  &kp END       &kp PG_DN  &kp F4     &kp ENTER          &kp KP_NUMBER_0  &kp KP_DOT    &kp KP_DOT     &kp RBKT         &trans
+&kp EQUAL             &kp N1     &kp N2  &kp N3    &kp N4     &kp N5  &trans                                                        &trans     &kp N6  &kp KP_NUM       &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
+&kp TAB               &kp Q      &kp W   &kp E     &kp R      &kp T   &trans                                                        &trans     &kp Y   &kp KP_N7        &kp KP_N8     &kp KP_N9      &kp KP_MINUS     &kp BSLH
+&mt LEFT_CONTROL ESC  &kp A      &kp S   &kp D     &kp F      &kp G   &trans     &kp LCTRL      &kp LALT      &kp LGUI   &kp RCTRL  &trans     &kp H   &kp KP_N4        &kp KP_N5     &kp KP_N6      &kp KP_PLUS      &kp SQT
+&kp LSHFT             &kp Z      &kp X   &kp C     &kp V      &kp B                             &kp HOME      &kp PG_UP                        &kp N   &kp KP_N1        &kp KP_N2     &kp KP_N3      &kp KP_ENTER     &kp RSHFT
+&trans                &kp GRAVE  &none   &kp LEFT  &kp RIGHT          &kp SPACE  &kp BACKSPACE  &kp END       &kp PG_DN  &kp F4     &kp ENTER          &kp KP_NUMBER_0  &kp KP_DOT    &kp KP_DOT     &kp RBKT         &trans
             >;
         };
 
